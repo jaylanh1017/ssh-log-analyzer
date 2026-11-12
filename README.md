@@ -18,7 +18,7 @@ Thresholds are set at the top of the script and can be tuned to reduce false pos
 
 ## Example output
 
-![Example output](screenshots/output.png)
+![Example output](output.png)
 
 ```
 === ALERTS ===
@@ -35,7 +35,7 @@ Legitimate users who mistyped their password once (`192.168.1.10`, `192.168.1.22
 Requires Python 3. No extra libraries are needed.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/ssh-log-analyzer.git
+git clone https://github.com/jaylanh1017/ssh-log-analyzer.git
 cd ssh-log-analyzer
 python3 analyzer.py              # scans the included sample auth.log
 python3 analyzer.py /path/to/other.log   # scans any other SSH auth log
